@@ -1,13 +1,17 @@
 import pytest
+import requests
 
-from support.assertions import assert_valid_schema
+from tests.support.assertions import assert_valid_schema
 
 
 @pytest.mark.contract
 def test_get_users_200(health):
-    json_data = health.json()
+    # GIVEN
+    response = requests.get(url=health)
+    # THEN
+    json_data = response.json()
 
-    assert health.status_code == 200
+    assert response.status_code == 200
     assert_valid_schema(json_data, 'users.json')
 
 
@@ -33,10 +37,13 @@ def test_post_single_user_201(post_new_user):
 
 
 @pytest.mark.contract
-def test_update_user_200(post_new_user):
-    json_data = post_new_user.json()
+def test_update_user_201(post_new_user):
+    # GIVEN
+    response = requests.put(url=post_new_user['single_user'], data=post_new_user['payload'])
+    # THEN
+    json_data = response.json()
 
-    assert post_new_user.status_code == 201
+    assert response.status_code == 201
     assert_valid_schema(json_data, 'new_user.json')
 
 

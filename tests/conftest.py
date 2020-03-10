@@ -1,23 +1,22 @@
 import pytest
 import requests
 
-from support.requests.api_requests import *
-from support.requests.test_values import *
+from tests.support.requests.api_requests import users
+from tests.support.requests.test_values import valid_test_data_post, valid_test_data_put
 
 
 @pytest.fixture
 def health():
-    response = requests.get(url=users['url'])
+    url = users['url']
 
-    return response
+    return url
 
 
 @pytest.fixture
 def get_user():
     single_user = users['url'] + '/2'
-    response = requests.get(url=single_user)
 
-    return response
+    return single_user
 
 
 @pytest.fixture
@@ -40,9 +39,8 @@ def post_new_user():
 def put_user():
     single_user = users['url'] + '/2'
     payload = valid_test_data_put
-    response = requests.put(url=single_user, data=payload)
 
-    return response
+    return [single_user, payload]
 
 
 @pytest.fixture
