@@ -3,7 +3,7 @@
     "required": [
         "name",
         "job",
-        "createdAt"
+        "updatedAt"
     ],
     "properties": {
         "name": {
@@ -12,7 +12,7 @@
         "job": {
             "type": "string"
         },
-        "createdAt": {
+        "updatedAt": {
             "type": "string"
         }
     }
