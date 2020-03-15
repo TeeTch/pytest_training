@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10432c2-8086-492e-b67b-0e827a214c4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/contract/test_login_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/contract/test_registration_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/contract/test_users_contract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/functional/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/functional/test_login_functional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/functional/test_registration_functional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/support/schemas/error.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/support/schemas/login.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/support/schemas/registration.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/support/schemas/registration_error.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/support/schemas/update_user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/contract/test_users.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/health/test_api_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/health/test_api_status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/support/requests/api_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/support/requests/api_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/support/requests/test_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/support/requests/test_values.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/support/schemas/new_user.json" beforeDir="false" afterPath="$PROJECT_DIR$/tests/support/schemas/new_user.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,10 +128,10 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="1011" y="537" width="607" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413@67.27.2493.1413" timestamp="1584206584323" />
-    <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2" timestamp="1584208391753">
+    <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2" timestamp="1584208711726">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
-    <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2/67.27.2493.1413@67.27.2493.1413" timestamp="1584208391753" />
+    <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2/67.27.2493.1413@67.27.2493.1413" timestamp="1584208711726" />
     <state width="2470" height="397" key="GridCell.Tab.0.bottom" timestamp="1583754379014">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
