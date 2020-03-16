@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a10432c2-8086-492e-b67b-0e827a214c4c" name="Default Changelist" comment="">
+    <list default="true" id="a10432c2-8086-492e-b67b-0e827a214c4c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/TeeTch/pytest_training&#10;&#10;# Conflicts:&#10;#&#9;.gitignore">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -129,21 +129,31 @@
       <option name="project" value="LOCAL" />
       <updated>1584288779601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore updated">
+      <created>1584367644185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584367644185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore added" />
+    <MESSAGE value="gitignore updated" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/TeeTch/pytest_training&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/TeeTch/pytest_training&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1011" y="537" width="607" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584206584323">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state x="1011" y="537" width="607" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.2493.1413@67.27.2493.1413" timestamp="1584206584323" />
-    <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2" timestamp="1584288779479">
-      <screen x="67" y="27" width="2493" height="1413" />
+    <state x="2577" y="47" width="812" height="984" key="CommitChangelistDialog2" timestamp="1584367994778">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2577" y="47" width="812" height="984" key="CommitChangelistDialog2/1920.0.1920.1080/0.27.1920.1004@1920.0.1920.1080" timestamp="1584367994778" />
     <state x="920" y="329" width="777" height="807" key="CommitChangelistDialog2/67.27.2493.1413@67.27.2493.1413" timestamp="1584288779479" />
     <state width="2470" height="397" key="GridCell.Tab.0.bottom" timestamp="1583754379014">
       <screen x="67" y="27" width="2493" height="1413" />
@@ -161,6 +171,14 @@
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
     <state width="2470" height="397" key="GridCell.Tab.0.right/67.27.2493.1413@67.27.2493.1413" timestamp="1583754379013" />
+    <state x="2102" y="81" width="1536" height="894" key="MergeDialog" timestamp="1584368072904">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2102" y="81" width="1536" height="894" key="MergeDialog/1920.0.1920.1080/0.27.1920.1004@1920.0.1920.1080" timestamp="1584368072904" />
+    <state x="2585" y="246" width="580" height="564" key="MultipleFileMergeDialog" timestamp="1584368072906">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2585" y="246" width="580" height="564" key="MultipleFileMergeDialog/1920.0.1920.1080/0.27.1920.1004@1920.0.1920.1080" timestamp="1584368072906" />
     <state x="802" y="367" key="SettingsEditor" timestamp="1579959632267">
       <screen x="67" y="27" width="2493" height="1413" />
     </state>
